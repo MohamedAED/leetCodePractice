@@ -1,9 +1,9 @@
 package com.mk.leetCodePractice.leetCode_75;
 
-public class LC75_01_MergeAlternately {
+public class LC75_01_mergeAlternately {
     // 1768. Merge Strings Alternately
 
-    public static String mergeAlternately(String word1, String word2) {
+    public String mergeAlternately(String word1, String word2) {
         StringBuilder result= new StringBuilder();
 
         int n1 = word1.length();
